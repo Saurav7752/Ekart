@@ -1,0 +1,58 @@
+To create vitual enviournment install virtualenv module
+
+pip install
+
+create virtual env
+
+virtualenv enviournment
+or
+python -m virtualenv (Enviournment name)
+--------------------------
+
+Activate Virtual env                                                         
+=============================
+>env\Scripts\activate
+
+Deactivate Virtual Env
+===========================
+>env\Scripts\deactivate
+
+Install Django                                         
+=================
+>pip install django
+
+Creating a project in django
+=================================
+>django-admin startproject (Project Name)
+E.g-> django-admin startproject Store                     >>>> (store is a name of a project)
+
+Creating Application
+==========================   
+
+python manage.py startapp (App Name)
+
+>cd store                                                                            cd: Change directory
+store> python manage.py startapp (e.g-storeapp)
+
+To Run django Server
+=========================
+
+To stop server : Cltr+C
+
+
+
+
+Seperate urls.py file for esch Application
+==============================================
+To Achieve code maintainability with respect to
+urls , it is better to create urls.py file for each application and define 
+urlpatterns in tha file for that application.
+
+Step 
+
+
+
+
+
+
+

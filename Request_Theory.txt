@@ -1,0 +1,8 @@
+Request Object
+=================
+
+request object store data related to request
+to fetch request from request object
+
+datamember = Method
+Object = 
