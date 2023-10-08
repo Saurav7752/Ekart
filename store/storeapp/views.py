@@ -155,7 +155,7 @@ def payment(request):
     print("Total:",s)
     s=s*100
     data = { "amount": s, "currency": "INR", "receipt": oid }
-    payment = client.order.create(data=data)
+    payment = client.order.create(data=data)    
     context['payment']=payment
     context['Data']=o
 
